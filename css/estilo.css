@@ -16,7 +16,8 @@
     "E2 E3 E4"
     "E5 E6 E7"
     "E8 E9 E10"
-    "E11 E12 E13";
+    "E11 E12 E13"
+    "E14 E14 E14";
 }
 
 .Elemento1{
@@ -31,11 +32,7 @@
     grid-area: E1;
 }
 
-
-
-
-
-    .Elemento2{grid-area: E2;}
+.Elemento2{grid-area: E2;}
 .Elemento3{grid-area: E3;}
 .Elemento4{grid-area: E4;}
 .Elemento5{grid-area: E5;}
@@ -47,6 +44,7 @@
 .Elemento11{grid-area: E11;}
 .Elemento12{grid-area: E12;}
 .Elemento13{grid-area: E13;}
+.Elemento14{grid-area: E14; background: black; color: white; height: 40px;}
 
 .contedor > .Elemento2:hover,
 .contedor > .Elemento3:hover,
@@ -108,7 +106,8 @@ div table tr td{
        "E6 E7"
        "E8 E9" 
        "E10 E11"
-       "E12 E13";
+       "E12 E13"
+       "E14 E14";
    } 
 }
 
@@ -131,8 +130,7 @@ div table tr td{
         "E10"
         "E11"
         "E12"
-        "E13";
+        "E13"
+        "E14";
     }
 } 
-
-
