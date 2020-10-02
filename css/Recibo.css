@@ -32,10 +32,6 @@
     grid-area: E1;
 }
 
-.nav{
-    background: #000000;
-}
-
 .nav{grid-area: nav;}
 .Elemento2{grid-area: E2;}
 .Elemento3{grid-area: E3;}
