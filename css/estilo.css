@@ -17,6 +17,7 @@
     "E5 E6 E7"
     "E8 E9 E10"
     "E11 E12 E13"
+    "E15 E16 E17"
     "E14 E14 E14";
 }
 
@@ -44,6 +45,10 @@
 .Elemento11{grid-area: E11;}
 .Elemento12{grid-area: E12;}
 .Elemento13{grid-area: E13;}
+.Elemento15{grid-area: E15;}
+.Elemento16{grid-area: E16;}
+.Elemento17{grid-area: E17;}
+
 .Elemento14{grid-area: E14; background: black; color: white; height: 40px;}
 
 .contedor > .Elemento2:hover,
@@ -57,7 +62,10 @@
 .contedor > .Elemento10:hover,
 .contedor > .Elemento11:hover,
 .contedor > .Elemento12:hover,
-.contedor > .Elemento13:hover{
+.contedor > .Elemento13:hover,
+.contedor > .Elemento15:hover,
+.contedor > .Elemento16:hover,
+.contedor > .Elemento17:hover{
     cursor: pointer;
     color: #000000;
     background: rgba(168,189,106,1);
@@ -81,7 +89,10 @@
 .contedor > .Elemento10,
 .contedor > .Elemento11,
 .contedor > .Elemento12,
-.contedor > .Elemento13{
+.contedor > .Elemento13,
+.contedor > .Elemento15,
+.contedor > .Elemento16,
+.contedor > .Elemento17{
     background: #2d3436;
     color: #ffffff;
     display: flex;
@@ -107,6 +118,8 @@ div table tr td{
        "E8 E9" 
        "E10 E11"
        "E12 E13"
+       "E15 E16"
+       "E17 E17"
        "E14 E14";
    } 
 }
@@ -131,6 +144,9 @@ div table tr td{
         "E11"
         "E12"
         "E13"
+        "E15"
+        "E16"
+        "E17"
         "E14";
     }
 } 
