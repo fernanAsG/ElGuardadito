@@ -17,6 +17,7 @@
     "nav nav nav"
     "E2 E3 E4"
     "E5 E6 E7"
+    "E8 E9 E10"
     "E14 E14 E14";
 }
 
@@ -43,6 +44,9 @@
 .Elemento5{grid-area: E5;}
 .Elemento6{grid-area: E6;}
 .Elemento7{grid-area: E7;}
+.Elemento8{grid-area: E8;}
+.Elemento9{grid-area: E9;}
+.Elemento10{grid-area: E10;}
 .Elemento14{grid-area: E14; background: black; color: white; height: 40px;}
 
 .contenedor > .nav,
@@ -52,6 +56,9 @@
 .contenedor > .Elemento5,
 .contenedor > .Elemento6,
 .contenedor > .Elemento7,
+.contenedor > .Elemento8,
+.contenedor > .Elemento9,
+.contenedor > .Elemento10,
 .contenedor > .Elemento14{
     width: 100%;
     height: 475px;
@@ -132,6 +139,8 @@ ul li a:hover{
         "E2 E3"
         "E4 E5"
         "E6 E7"
+        "E8 E9"
+        "E10 E11"
         "E14 E14";
     } 
 }
@@ -151,6 +160,9 @@ ul li a:hover{
        "E5"
        "E6"
        "E7"
+       "E8"
+       "E9"
+       "E10"
        "E14";
    }
 }
