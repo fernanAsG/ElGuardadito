@@ -66,13 +66,12 @@ h1{
 
 .Elemento1{
     background: linear-gradient(#0c1d38,#1a3158);
-    grid-area: E1;
 }
 
 .nav{
     background: #2d3436;
 }
-
+.Elemento1{grid-area: E1;}
 .nav{grid-area: nav;}
 .Elemento2{grid-area: E2;}
 .Elemento3{grid-area: E3;}
