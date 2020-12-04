@@ -33,6 +33,19 @@ h1{
     border-top-left-radius: 70%;
 }
 
+.santa{
+    background-image: url(../Assets/santa.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 150px;
+    left: -300px;
+    animation: santa 10s infinite ease-in-out;
+}
+
 .contedor{
     font-family: 'Lemonada', cursive;
     display: grid;
@@ -162,6 +175,42 @@ ul li a:hover{
     background: -ms-linear-gradient(left, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
     background: linear-gradient(to right, rgba(168,189,106,1) 0%, rgba(168,189,106,1) 9%, rgba(168,189,106,1) 19%, rgba(158,184,96,1) 26%, rgba(142,176,80,1) 38%, rgba(121,165,59,1) 53%, rgba(100,155,38,1) 68%, rgba(87,149,25,1) 77%, rgba(76,143,14,1) 85%, rgba(76,143,14,1) 93%, rgba(76,143,14,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8bd6a', endColorstr='#4c8f0e', GradientType=1 );
+}
+
+@keyframes santa{
+    0%{
+        transform: translate(-300px,20px) rotateY(180deg) scale(1)
+    }
+    10%{
+        transform: translate(400px,100px) rotateY(180deg) scale(1.2)
+    }
+    20%{
+        transform: translate(800px,20px) rotateY(180deg) scale(.7)
+    }
+    30%{
+        transform: translate(1200px,100px) rotateY(180deg) scale(1.2)
+    }
+    40%{
+        transform: translate(1600px,20px) rotateY(180deg) scale(1.7)
+    }
+    50%{
+        transform: translate(2000px,100px) rotateY(180deg) scale(1.2)
+    }
+    60%{
+        transform: translate(1500px,20px)  scale(1.2)
+    }
+    70%{
+        transform: translate(1000px,100px)  scale(1.2)
+    }
+    80%{
+        transform: translate(500px,20px)  scale(1.2)
+    }
+    90%{
+        transform: translate(200px,100px)  scale(1.2)
+    }
+    100%{
+        transform: translate(-300px,20px)  scale(1.2)
+    }
 }
 
 @media all and (max-width: 1000px){
