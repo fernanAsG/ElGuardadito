@@ -2,7 +2,7 @@ var canvas = document.querySelector('.snow'),
     ctx = canvas.getContext('2d'),
     windowW = window.innerWidth,
     windowH = window.innerHeight,
-    numFlakes = 200,
+    numFlakes = 60,
     flakes = [];
 
 function Flake(x, y) {
