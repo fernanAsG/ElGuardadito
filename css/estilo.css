@@ -219,40 +219,40 @@ ul li a:hover{
    }
 
    @keyframes santa{
-    0%{
-        transform: translate(-300px,20px) rotateY(180deg) scale(1)
+        0%{
+            transform: translate(-300px,20px) rotateY(180deg) scale(1)
+        }
+        10%{
+            transform: translate(400px,100px) rotateY(180deg) scale(1.2)
+        }
+        20%{
+            transform: translate(800px,20px) rotateY(180deg) scale(.7)
+        }
+        30%{
+            transform: translate(850px,100px) rotateY(180deg) scale(1.2)
+        }
+        40%{
+            transform: translate(1100px,20px) rotateY(180deg) scale(1.7)
+        }
+        50%{
+            transform: translate(1000px,100px) rotateY(180deg) scale(1.2)
+        }
+        60%{
+            transform: translate(950px,20px)  scale(1.2)
+        }
+        70%{
+            transform: translate(600px,100px)  scale(1.2)
+        }
+        80%{
+            transform: translate(500px,20px)  scale(1.2)
+        }
+        90%{
+            transform: translate(200px,100px)  scale(1.2)
+        }
+        100%{
+            transform: translate(-300px,20px)  scale(1.2)
+        }
     }
-    10%{
-        transform: translate(400px,100px) rotateY(180deg) scale(1.2)
-    }
-    20%{
-        transform: translate(800px,20px) rotateY(180deg) scale(.7)
-    }
-    30%{
-        transform: translate(850px,100px) rotateY(180deg) scale(1.2)
-    }
-    40%{
-        transform: translate(1100px,20px) rotateY(180deg) scale(1.7)
-    }
-    50%{
-        transform: translate(1000px,100px) rotateY(180deg) scale(1.2)
-    }
-    60%{
-        transform: translate(950px,20px)  scale(1.2)
-    }
-    70%{
-        transform: translate(600px,100px)  scale(1.2)
-    }
-    80%{
-        transform: translate(500px,20px)  scale(1.2)
-    }
-    90%{
-        transform: translate(200px,100px)  scale(1.2)
-    }
-    100%{
-        transform: translate(-300px,20px)  scale(1.2)
-    }
-}
 }
 
 @media all and (max-width: 600px){
